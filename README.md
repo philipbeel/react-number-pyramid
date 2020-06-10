@@ -4,7 +4,7 @@
 
 GitHub : https://github.com/philipbeel/react-number-pyramid
 
-Game :
+Game : https://react-number-pyramid.netlify.app/
 
 Website : http://theodin.co.uk
 
