@@ -35,6 +35,9 @@ const ButtonLabel = styled('span')`
   text-shadow: 1px 1px var(--token-secondary-color);
   color: #ffde03;
 `;
+const PyramidInput = styled(Input)`
+  padding: 0.1rem;
+`;
 
 const LevelMap = {
   beginner: 3,
@@ -52,9 +55,9 @@ function GeneratePyramid({
 
   const InputFragment = ({ columns }) =>
     [...Array(columns).keys()].map((i) => (
-      <Grid.Column key={i}>
+      <Grid.Column key={i} mobile={4}>
         <Form.Field>
-          <Input
+          <PyramidInput
             error={true}
             ref={(input) =>
               input && input.props.tabIndex === LevelMap[level]
