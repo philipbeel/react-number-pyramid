@@ -1,4 +1,5 @@
 import React from 'react';
+import { bool, string, func } from 'prop-types';
 import styled from 'astroturf';
 import { Modal, Icon, Button } from 'semantic-ui-react';
 
@@ -46,4 +47,11 @@ export const LevelComplete = ({
       </Modal.Actions>
     </Modal>
   );
+};
+
+LevelComplete.propTypes = {
+  isOpen: bool,
+  level: string,
+  onRepeatLevel: func,
+  onNextLevel: func,
 };

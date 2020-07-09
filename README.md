@@ -12,4 +12,4 @@ Twitter : [@philipbeel](https://twitter.com/philipbeel)
 
 ## Description
 
-A Mental arithmetic pyramid puzzle game, written in React.
+A Mental arithmetic pyramid puzzle game, written in with React, Semantic UI, and Astroturf.
